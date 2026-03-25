@@ -26,11 +26,32 @@ GET YOUR GROQ API KEY:
 Visit https://console.groq.com and sign up for free
 
 
-
+--------------------------------------------------------------------------------------
  IMAGES::
+ -------------------------------------------------------------------------------------
 <img width="1366" height="577" alt="jarvis" src="https://github.com/user-attachments/assets/173ca647-1cb9-4db4-95a2-964b729df2e8" />
 
+---------------------------------------------------------------------------------------
+THE DATA FLOW OF THE AI:
+----------------------------------------------------------------------------------------
 
+You type
+   ↓
+handle()
+   ↓
+classify()
+   ↓
+CHAT ————————————→ AI replies → Done
+   ↓
+TASK
+   ↓
+Method 1: Built-in template? → Yes → Run → Done
+   ↓ No
+Method 2: Seen this before? → Yes → Run → Done
+   ↓ No
+Method 3: Write new code → Run → Save → Done
+   ↓ Failed 3 times
+"Couldn't complete that"
 
 
 
