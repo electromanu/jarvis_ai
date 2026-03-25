@@ -26,7 +26,6 @@ GET YOUR GROQ API KEY:
 Visit https://console.groq.com and sign up for free
 
 
-<img width="1920" height="937" alt="Screenshot 2026-03-23 151326" src="https://github.com/user-attachments/assets/15c49dcb-fda3-4aa5-9e06-7cb937d59ed9" />
 
 
 
