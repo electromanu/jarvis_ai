@@ -1,0 +1,324 @@
+[
+  {
+    "time": "2026-03-22T04:48:35.895496",
+    "input": "open Chrome",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T04:48:51.253413",
+    "input": "open camera",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T04:49:31.904546",
+    "input": "open Chrome",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T04:50:03.458665",
+    "input": "close Chrome",
+    "tool": "google_chrome_closer",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:04:32.935324",
+    "input": "ok then create a small jarvis ai like u and provide me a zip file in the desktop",
+    "tool": "jarvis_ai_tool",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:15:09.927435",
+    "input": "open chrome",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:16:09.869947",
+    "input": "open chrome instence which already running",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:17:12.830310",
+    "input": "whar are the apps running now",
+    "tool": "process_viewer",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:17:20.393900",
+    "input": "switch between apps",
+    "tool": "alt_tab_switcher",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:18:45.359751",
+    "input": "ok swich tab",
+    "tool": "alt_tab_switcher",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:26:36.915492",
+    "input": "what are app are running now",
+    "tool": "process_viewer",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:34:19.064819",
+    "input": "hi",
+    "tool": "hello_tool",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:37:54.584095",
+    "input": "hi",
+    "tool": "hello_tool",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:38:01.624542",
+    "input": "hello",
+    "tool": "hello_tool",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:38:23.445329",
+    "input": "what are the apps running now",
+    "tool": "process_viewer",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:38:47.342964",
+    "input": "ok stop",
+    "tool": "text_stopper",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:39:47.085637",
+    "input": "how make pani puri",
+    "tool": "panipuri_creator",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:45:48.429247",
+    "input": "what are the apps running",
+    "tool": "process_viewer",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-22T05:47:48.395893",
+    "input": "what is eating most of my cpu right now",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:48:05.619604",
+    "input": "show me my top 5 memory hungry apps",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:48:35.461783",
+    "input": "how long has my computer been running",
+    "tool": "system_uptime_tool",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:49:25.419945",
+    "input": "check if my internet is fast or slow right now",
+    "tool": "internet_speed_tester",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:49:56.877118",
+    "input": "take a screenshot right now and tell me what is on my screen",
+    "tool": "screen_capture_tool",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:50:32.584996",
+    "input": "take a screenshot right now and tell me what is on my screen",
+    "tool": "screen_capture_tool",
+    "success": false,
+    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\cherie berry\\Desktop\\jarvis\\venv\\Lib\\site-packages\\pytesseract\\pytesseract.py\", line 275, in run_tesseract\n    proc = subprocess.Popen(cmd_args, **subprocess_args())\n  File \"C:\\Users\\cherie berry\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\subprocess.py\", line 1038, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\cherie berry\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\subprocess.py\", line 1552, in _execute_child\n    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,\n                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n                             # no special security\n                             ^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n                             cwd,\n                             ^^^^\n                             startupinfo)\n                             ^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpxi2gdbut.py\", line 12, in <module>\n    text = pytesseract.image_to_string(Image.open('screenshot.png'))\n  File \"C:\\Users\\cherie berry\\Desktop\\jarvis\\venv\\Lib\\site-packages\\pytesseract\\pytesseract.py\", line 486, in image_to_string\n    return {\n           ~\n    ...<2 lines>...\n        Output.STRING: lambda: run_and_get_output(*args),\n        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    }[output_type]()\n    ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\cherie berry\\Desktop\\jarvis\\venv\\Lib\\site-packages\\pytesseract\\pytesseract.py\", line 489, in <lambda>\n    Output.STRING: lambda: run_and_get_output(*args),\n                           ~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\cherie berry\\Desktop\\jarvis\\venv\\Lib\\site-packages\\pytesseract\\pytesseract.py\", line 352, in run_and_get_output\n    run_tesseract(**kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\cherie berry\\Desktop\\jarvis\\venv\\Lib\\site-packages\\pytesseract\\pytesseract.py\", line 280, in run_tesseract\n    raise TesseractNotFoundError()\npytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information."
+  },
+  {
+    "time": "2026-03-22T05:50:34.293177",
+    "input": "take a screenshot right now and tell me what is on my screen",
+    "tool": "screen_capture_tool",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T05:57:55.416965",
+    "input": "take a screenshot and tell me what is on my screen",
+    "tool": "screen_capture_tool",
+    "success": true,
+    "error": "C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpzv1nuxxd.py:11: SyntaxWarning: \"\\j\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\j\"? A raw string is also an option.\n  image.save(desktop + '\\jarvis_screen.png')\nC:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpzv1nuxxd.py:12: SyntaxWarning: \"\\j\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\j\"? A raw string is also an option.\n  print('SCREENSHOT_PATH:' + desktop + '\\jarvis_screen.png')"
+  },
+  {
+    "time": "2026-03-22T05:58:55.198029",
+    "input": "take a screenshot and tell me what is on my screen",
+    "tool": "screen_capture_tool",
+    "success": true,
+    "error": "C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpo1qw8rww.py:11: SyntaxWarning: \"\\j\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\j\"? A raw string is also an option.\n  image.save(desktop + '\\jarvis_screen.png')\nC:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpo1qw8rww.py:12: SyntaxWarning: \"\\j\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\j\"? A raw string is also an option.\n  print('SCREENSHOT_PATH:' + desktop + '\\jarvis_screen.png')"
+  },
+  {
+    "time": "2026-03-22T05:59:59.857597",
+    "input": "take a screenshot and tell me what is on my screen",
+    "tool": "screen_capture_tool",
+    "success": true,
+    "error": "C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpvp5rqomd.py:11: SyntaxWarning: \"\\j\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\j\"? A raw string is also an option.\n  image.save(desktop + '\\jarvis_screen.png')"
+  },
+  {
+    "time": "2026-03-22T06:01:43.600533",
+    "input": "look at my screen and tell me if anything looks wrong",
+    "tool": "screen_capture_tool",
+    "success": true,
+    "error": "C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmp11ctyim9.py:10: SyntaxWarning: \"\\j\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\j\"? A raw string is also an option.\n  image.save(desktop + '\\jarvis_screen.png')\nC:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmp11ctyim9.py:11: SyntaxWarning: \"\\j\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\j\"? A raw string is also an option.\n  return desktop + '\\jarvis_screen.png'"
+  },
+  {
+    "time": "2026-03-22T06:02:19.829348",
+    "input": "scan my wifi and tell me how many devices are connected",
+    "tool": "wifi_scanner",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:02:34.262526",
+    "input": "tell me the weather in bangalore right now",
+    "tool": "weather_api",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:02:48.784470",
+    "input": "tell me the weather in bangalore right now",
+    "tool": "weather_api",
+    "success": false,
+    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpb3wixtky.py\", line 27, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpb3wixtky.py\", line 19, in main\n    print(f\"Description: {weather_data['weather'][0]['description']}\")\n                          ~~~~~~~~~~~~^^^^^^^^^^^\nKeyError: 'weather'"
+  },
+  {
+    "time": "2026-03-22T06:02:51.618784",
+    "input": "tell me the weather in bangalore right now",
+    "tool": "weather_api",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:03:18.973691",
+    "input": "monitor my cpu for 30 seconds, every 5 seconds take a reading, then tell me the average and if anything spiked",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:04:00.476617",
+    "input": "monitor my cpu for 30 seconds, every 5 seconds take a reading, then tell me the average and if anything spiked",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:06:08.238643",
+    "input": "tell me the weather in bangalore right now",
+    "tool": "weather_api",
+    "success": false,
+    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpl8q7i6xk.py\", line 27, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpl8q7i6xk.py\", line 19, in main\n    print(f\"Description: {weather_data['weather'][0]['description']}\")\n                          ~~~~~~~~~~~~^^^^^^^^^^^\nKeyError: 'weather'"
+  },
+  {
+    "time": "2026-03-22T06:06:11.635143",
+    "input": "tell me the weather in bangalore right now",
+    "tool": "weather_api",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:06:36.970912",
+    "input": "tell me the weather in bangalore right now",
+    "tool": "weather_api",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:08:42.153777",
+    "input": "monitor my cpu for 30 seconds, every 5 seconds take a reading, then tell me the average and if anything spiked",
+    "tool": "cpu_monitor",
+    "success": false,
+    "error": "Script timed out after 30 seconds"
+  },
+  {
+    "time": "2026-03-22T06:10:14.500204",
+    "input": "monitor my cpu for 30 seconds, every 5 seconds take a reading, then tell me the average and if anything spiked",
+    "tool": "none",
+    "success": false,
+    "error": "['Script timed out after 30 seconds', 'Script timed out after 30 seconds', 'Script timed out after 30 seconds']"
+  },
+  {
+    "time": "2026-03-22T06:10:27.146617",
+    "input": "[JARVIS] Failed: Traceback (most recent call last):",
+    "tool": "debug_traceback_parser",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:10:28.592564",
+    "input": "File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmplpolh1g3.py\", line 23, in <module>",
+    "tool": "debug_helper",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:10:29.869869",
+    "input": "main()",
+    "tool": "string_converter",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:10:31.630473",
+    "input": "File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmplpolh1g3.py\", line 19, in main",
+    "tool": "error_parser",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:10:37.387393",
+    "input": "console = rich.console.Console()",
+    "tool": "rich_console_initializer",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-22T06:11:24.404820",
+    "input": "fix the weather_api tool and fecth the current weather in banglore",
+    "tool": "weather_api",
+    "success": true,
+    "error": ""
+  }
+]

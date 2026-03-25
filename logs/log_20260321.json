@@ -1,0 +1,359 @@
+[
+  {
+    "time": "2026-03-21T15:07:28.408347",
+    "input": "hi",
+    "tool": "hello_tool",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:07:57.045841",
+    "input": "can you tell me tym",
+    "tool": "none",
+    "success": false,
+    "error": "['File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpdwwx33tq.py\", line 1\\n    ```python\\n    ^\\nSyntaxError: invalid syntax', 'File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpqw6oi5kl.py\", line 1\\n    ```python\\n    ^\\nSyntaxError: invalid syntax', 'File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpu7lvff_i.py\", line 1\\n    ```python\\n    ^\\nSyntaxError: invalid syntax']"
+  },
+  {
+    "time": "2026-03-21T15:08:15.038286",
+    "input": "tell me time",
+    "tool": "none",
+    "success": false,
+    "error": "['File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp36m72gdf.py\", line 1\\n    ```python\\n    ^\\nSyntaxError: invalid syntax', 'File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp8ayfr0jh.py\", line 1\\n    ```python\\n    ^\\nSyntaxError: invalid syntax', 'File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp2qz_4rzx.py\", line 1\\n    ```python\\n    ^\\nSyntaxError: invalid syntax']"
+  },
+  {
+    "time": "2026-03-21T15:10:00.592845",
+    "input": "tell me time",
+    "tool": "time_teller",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:10:14.143936",
+    "input": "tell me cpu usage",
+    "tool": "cpu_monitor",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:10:22.964504",
+    "input": "cpu usage",
+    "tool": "cpu_monitor",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:10:32.889374",
+    "input": "what is ram usage",
+    "tool": "ram_usage_checker",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:11:02.410065",
+    "input": "can u list files in the desktop",
+    "tool": "list_desktop",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:12:36.968995",
+    "input": "create a text file for making panipuri and add intruction into it then save in the desktop",
+    "tool": "panipuri_creator",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:13:00.057917",
+    "input": "list desktop files now",
+    "tool": "list_desktop",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:13:34.152183",
+    "input": "now delete the panipuri file",
+    "tool": "file_deleter",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:14:00.830914",
+    "input": "i mean panipuri_recipe file",
+    "tool": "panipuri_creator",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:14:32.198716",
+    "input": "delete the panipuri_recipe file",
+    "tool": "file_deleter",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:14:43.807544",
+    "input": "delete the panipuri_recipe.txt",
+    "tool": "file_deleter",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:14:55.751712",
+    "input": "delete the panipuri_recipe.txt",
+    "tool": "file_deleter",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:16:46.935626",
+    "input": "delete the panipuri_recipe.txt which is present in the desktop",
+    "tool": "file_deleter",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:18:03.166861",
+    "input": "delete the panipuri_recipe.txt which is present in the desktop",
+    "tool": "file_deleter",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:19:24.076777",
+    "input": "what is my computer name",
+    "tool": "computer_name",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:19:35.605064",
+    "input": "show me all running processes",
+    "tool": "process_viewer",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:21:59.919999",
+    "input": "time",
+    "tool": "time_teller",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:22:24.658646",
+    "input": "in which directory are u in right now",
+    "tool": "current_dir",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:22:41.940309",
+    "input": "open chrome",
+    "tool": "chrome_opener",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:24:06.604436",
+    "input": "open anaconda navigator",
+    "tool": "anaconda_opener",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:25:07.928467",
+    "input": "find anaconda-navigator.exe on my computer and show me the full path",
+    "tool": "file_finder",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:25:57.786275",
+    "input": "open the file at C:\\Users\\cherie berry\\anaconda3\\pkgs\\anaconda-navigator-2.7.0-py313haa95532_1\\Scripts\\anaconda-navigator.exe",
+    "tool": "anaconda_opener",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:26:26.286700",
+    "input": "ok now open the camera",
+    "tool": "camera_opener",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:26:43.595646",
+    "input": "open camera and take a pic",
+    "tool": "camera_opener",
+    "success": false,
+    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmpr6ywqct_.py\", line 1, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'"
+  },
+  {
+    "time": "2026-03-21T15:26:46.340276",
+    "input": "open camera and take a pic",
+    "tool": "camera_opener",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:28:15.804508",
+    "input": "open camera and take a photo and save it to desktop",
+    "tool": "camera_opener",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:29:32.906012",
+    "input": "record my keystrokes for 10 seconds and show what I typed",
+    "tool": "none",
+    "success": false,
+    "error": "['Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp3tzg18i4.py\", line 1, in <module>\\n    import pynput\\nModuleNotFoundError: No module named \\'pynput\\'', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpq6cceata.py\", line 1, in <module>\\n    import pyautogui\\nModuleNotFoundError: No module named \\'pyautogui\\'', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp111_w0e_.py\", line 88, in <module>\\n    main()\\n    ~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp111_w0e_.py\", line 84, in main\\n    log = key_logger.start()\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp111_w0e_.py\", line 32, in start\\n    class KBDLLHOOKSTRUCT(ctypes.Structure):\\n    ...<6 lines>...\\n        ]\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp111_w0e_.py\", line 38, in KBDLLHOOKSTRUCT\\n    (\\'dwExtraInfo\\', wintypes.POINTER(wintypes.DWORD))\\n                    ^^^^^^^^^^^^^^^^\\nAttributeError: module \\'ctypes.wintypes\\' has no attribute \\'POINTER\\'. Did you mean: \\'POINT\\'?']"
+  },
+  {
+    "time": "2026-03-21T15:32:01.660084",
+    "input": "record my keystrokes for 10 seconds and show what I typed",
+    "tool": "key_logger",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:33:04.713785",
+    "input": "record my keystrokes for 10 seconds and show what I typed",
+    "tool": "key_logger",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:33:24.684988",
+    "input": "record my keystrokes for 10 seconds and show what I typed",
+    "tool": "key_logger",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:33:47.718827",
+    "input": "record my keystrokes for 10 seconds and show what I typed",
+    "tool": "key_logger",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:34:40.486451",
+    "input": "record my keystrokes for 10 seconds, clean the output so Key.space shows as space and Key.enter shows as newline, and show what I typed nicely",
+    "tool": "key_logger",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:36:37.992858",
+    "input": "what we i love u in tamil",
+    "tool": "none",
+    "success": false,
+    "error": "['Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpn27kv0_e.py\", line 18, in <module>\\n    print(translated_text)\\n    ~~~~~^^^^^^^^^^^^^^^^^\\n  File \"C:\\\\Users\\\\cherie berry\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\Lib\\\\encodings\\\\cp1252.py\", line 19, in encode\\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nUnicodeEncodeError: \\'charmap\\' codec can\\'t encode characters in position 0-6: character maps to <undefined>', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp0c8nyd41.py\", line 19, in <module>\\n    print(translated_text.encode(\\'utf-8\\').decode(\\'utf-8\\'))\\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \"C:\\\\Users\\\\cherie berry\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\Lib\\\\encodings\\\\cp1252.py\", line 19, in encode\\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nUnicodeEncodeError: \\'charmap\\' codec can\\'t encode characters in position 0-6: character maps to <undefined>', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp9zfrdp_l.py\", line 19, in <module>\\n    print(translated_text)\\n    ~~~~~^^^^^^^^^^^^^^^^^\\n  File \"C:\\\\Users\\\\cherie berry\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\Lib\\\\encodings\\\\cp1252.py\", line 19, in encode\\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nUnicodeEncodeError: \\'charmap\\' codec can\\'t encode characters in position 0-6: character maps to <undefined>']"
+  },
+  {
+    "time": "2026-03-21T15:40:49.830636",
+    "input": "what we say i love u in tamil",
+    "tool": "none",
+    "success": false,
+    "error": "['Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmprnr5t3la.py\", line 11, in <module>\\n    translate_to_tamil()\\n    ~~~~~~~~~~~~~~~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmprnr5t3la.py\", line 8, in translate_to_tamil\\n    print(translation.text)\\n          ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited', \"'NoneType' object has no attribute 'strip'\", 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmppmywjcy0.py\", line 10, in <module>\\n    translate_to_tamil()\\n    ~~~~~~~~~~~~~~~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmppmywjcy0.py\", line 8, in translate_to_tamil\\n    print(translation.text)\\n          ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited']"
+  },
+  {
+    "time": "2026-03-21T15:41:12.898519",
+    "input": "how we say i love u in tamil",
+    "tool": "none",
+    "success": false,
+    "error": "['Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp1t1nk8ey.py\", line 11, in <module>\\n    say_i_love_u_in_tamil()\\n    ~~~~~~~~~~~~~~~~~~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp1t1nk8ey.py\", line 8, in say_i_love_u_in_tamil\\n    print(translation.text)\\n          ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpprnmv7s6.py\", line 11, in <module>\\n    asyncio.run(say_i_love_u_in_tamil())\\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \"C:\\\\Users\\\\cherie berry\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\Lib\\\\asyncio\\\\runners.py\", line 204, in run\\n    return runner.run(main)\\n           ~~~~~~~~~~^^^^^^\\n  File \"C:\\\\Users\\\\cherie berry\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\Lib\\\\asyncio\\\\runners.py\", line 127, in run\\n    return self._loop.run_until_complete(task)\\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\\n  File \"C:\\\\Users\\\\cherie berry\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\Lib\\\\asyncio\\\\base_events.py\", line 719, in run_until_complete\\n    return future.result()\\n           ~~~~~~~~~~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpprnmv7s6.py\", line 8, in say_i_love_u_in_tamil\\n    print(translation.text)\\n          ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp_k5i1ez5.py\", line 10, in <module>\\n    say_i_love_u_in_tamil()\\n    ~~~~~~~~~~~~~~~~~~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp_k5i1ez5.py\", line 8, in say_i_love_u_in_tamil\\n    print(translation.text)\\n          ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited']"
+  },
+  {
+    "time": "2026-03-21T15:41:57.060408",
+    "input": "i love u in telugu",
+    "tool": "none",
+    "success": false,
+    "error": "['Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpzs715pyu.py\", line 11, in <module>\\n    telugu_translation = translate_to_telugu(text)\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpzs715pyu.py\", line 8, in translate_to_telugu\\n    return translation.text\\n           ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpj08lsv4_.py\", line 16, in <module>\\n    main()\\n    ~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpj08lsv4_.py\", line 12, in main\\n    telugu_translation = translate_to_telugu(text)\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmpj08lsv4_.py\", line 8, in translate_to_telugu\\n    return translation.text\\n           ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp2gvjkofk.py\", line 16, in <module>\\n    main()\\n    ~~~~^^\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp2gvjkofk.py\", line 12, in main\\n    telugu_translation = translate_to_telugu(text)\\n  File \"C:\\\\Users\\\\CHERIE~1\\\\AppData\\\\Local\\\\Temp\\\\tmp2gvjkofk.py\", line 8, in translate_to_telugu\\n    return translation.text\\n           ^^^^^^^^^^^^^^^^\\nAttributeError: \\'coroutine\\' object has no attribute \\'text\\'\\n<sys>:0: RuntimeWarning: coroutine \\'Translator.translate\\' was never awaited']"
+  },
+  {
+    "time": "2026-03-21T15:43:53.630711",
+    "input": "i love you in tamil",
+    "tool": "none",
+    "success": false,
+    "error": "[\"'NoneType' object has no attribute 'strip'\", \"'NoneType' object has no attribute 'strip'\", \"'NoneType' object has no attribute 'strip'\"]"
+  },
+  {
+    "time": "2026-03-21T15:45:08.018452",
+    "input": "i love you in tamil",
+    "tool": "tamil_translator",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:45:26.052305",
+    "input": "i love you in telugu",
+    "tool": "telugu_translator",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:46:39.426130",
+    "input": "i love you in hindi",
+    "tool": "love_translator",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:52:36.509789",
+    "input": "hello u mama",
+    "tool": "hello_tool",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T15:52:48.800001",
+    "input": "how are u",
+    "tool": "simple_responder",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T15:54:12.666722",
+    "input": "how are u",
+    "tool": "simple_responder",
+    "success": true,
+    "error": ""
+  },
+  {
+    "time": "2026-03-21T16:02:46.837064",
+    "input": "open chrome",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T16:05:54.792456",
+    "input": "create a python project with 3 files main.py, utils.py and config.py, zip it and save to desktop",
+    "tool": "project_creator",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T16:13:20.258820",
+    "input": "create a python project with 3 files main.py, utils.py and config.py, zip it and save to desktop",
+    "tool": "project_creator",
+    "success": false,
+    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmp_tdcvhnf.py\", line 33, in <module>\n    create_project()\n    ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\CHERIE~1\\AppData\\Local\\Temp\\tmp_tdcvhnf.py\", line 9, in create_project\n    os.mkdir(project_name)\n    ~~~~~~~~^^^^^^^^^^^^^^\nFileExistsError: [WinError 183] Cannot create a file when that file already exists: 'my_project'"
+  },
+  {
+    "time": "2026-03-21T16:13:22.092498",
+    "input": "create a python project with 3 files main.py, utils.py and config.py, zip it and save to desktop",
+    "tool": "project_creator",
+    "success": true,
+    "error": null
+  },
+  {
+    "time": "2026-03-21T16:16:48.514297",
+    "input": "create a python project with 3 files main.py, utils.py and config.py, zip it and save to desktop",
+    "tool": "builtin",
+    "success": true,
+    "error": null
+  }
+]
