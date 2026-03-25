@@ -25,6 +25,9 @@ EXAMPLE COMMANDS:
 GET YOUR GROQ API KEY:
 Visit https://console.groq.com and sign up for free
 
+<img width="1366" height="577" alt="jarvis" src="https://github.com/user-attachments/assets/173ca647-1cb9-4db4-95a2-964b729df2e8" />
+
+
 
 
 
