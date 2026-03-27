@@ -1,4 +1,4 @@
-JARVIS - AI Agent That Builds Its Own Tools
+ECHO - AI Agent That Builds Its Own Tools
 ============================================
 
 SETUP:
@@ -9,7 +9,7 @@ SETUP:
    python main.py
 
 HOW IT WORKS:
-- Talk to JARVIS naturally
+- Talk to ECHO naturally
 - If it knows how to do something it runs it instantly
 - If it doesn't know, it writes a Python script, tests it, saves it forever
 - Gets smarter every time you use it
@@ -29,7 +29,7 @@ Visit https://console.groq.com and sign up for free
 --------------------------------------------------------------------------------------
  IMAGES::
  -------------------------------------------------------------------------------------
-<img width="1366" height="577" alt="jarvis" src="https://github.com/user-attachments/assets/173ca647-1cb9-4db4-95a2-964b729df2e8" />
+<img width="1366" height="577" alt="ECHO" src="https://github.com/user-attachments/assets/173ca647-1cb9-4db4-95a2-964b729df2e8" />
 
 
 ## How It Works — Full Flow
@@ -68,7 +68,7 @@ Now it tries **3 methods in order:**
 **If that fails or doesn't match → Method 2**
 
 **Method 2 — Saved tools** `pick_saved_tool()`
-> Checks if Jarvis has **learned this before**. If yes, reuses the saved script.
+> Checks if ECHO has **learned this before**. If yes, reuses the saved script.
 
 **If nothing saved → Method 3**
 
