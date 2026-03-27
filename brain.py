@@ -10,7 +10,7 @@ import base64
 
 
 client         = Groq(api_key=GROQ_API_KEY)
-jarvis_memory  = load_memory()
+echo_memory  = load_memory()
 stop_requested = False
 conversation_history = []
 
@@ -412,8 +412,8 @@ Do not reference previous sessions."""}
         reply = ask_groq(messages)
         if not reply: reply = "Yes, how can I help?"
         conversation_history.append({"role":"assistant","content":reply})
-        update_frequent_commands(jarvis_memory, user_input)
-        save_memory(jarvis_memory)
+        update_frequent_commands(echo_memory, user_input)
+        save_memory(echo_memory)
         return reply
 
     # TASK — run a script
@@ -424,8 +424,8 @@ Do not reference previous sessions."""}
         success, output, error, _ = run_code(builtin_code)
         if success and output.strip():
             log_interaction(user_input, "builtin", True)
-            update_frequent_commands(jarvis_memory, user_input)
-            save_memory(jarvis_memory)
+            update_frequent_commands(echo_memory, user_input)
+            save_memory(echo_memory)
             return format_output(user_input, output)
         print(f"[ECHO] Built-in failed: {error}")
 
@@ -444,8 +444,8 @@ Do not reference previous sessions."""}
                 if os.path.exists(img_path):
                     return analyze_screenshot(img_path)
             save_tool(tool_name, tools[tool_name]["description"], code)
-            update_frequent_commands(jarvis_memory, user_input)
-            save_memory(jarvis_memory)
+            update_frequent_commands(echo_memory, user_input)
+            save_memory(echo_memory)
             return format_output(user_input, output)
         else:
             path = f"tools/{tool_name}.json"
@@ -466,8 +466,8 @@ Do not reference previous sessions."""}
             meta = name_and_describe_tool(user_input, code)
             save_tool(meta["name"], meta["description"], code)
             log_interaction(user_input, meta["name"], True)
-            update_frequent_commands(jarvis_memory, user_input)
-            save_memory(jarvis_memory)
+            update_frequent_commands(echo_memory, user_input)
+            save_memory(echo_memory)
             return format_output(user_input, output)
         else:
             print(f"[ECHO] Failed: {error}")
