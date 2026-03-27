@@ -48,7 +48,7 @@ def install_if_missing(package):
     try:
         __import__(package)
     except ImportError:
-        print(f"[JARVIS] Installing {pip_package}...")
+        print(f"[echo] Installing {pip_package}...")
         subprocess.run(
             [sys.executable, "-m", "pip", "install", pip_package],
             capture_output=True,
