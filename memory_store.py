@@ -2,8 +2,8 @@ import json
 import os
 from datetime import datetime
 
-MEMORY_FILE = "jarvis_memory.json"
-jarvis_memory = {}
+MEMORY_FILE = "echo_memory.json"
+echo_memory = {}
 def load_memory():
     if not os.path.exists(MEMORY_FILE):
         return {
@@ -33,7 +33,7 @@ def save_memory(memory: dict):
         with open(MEMORY_FILE, "w", encoding="utf-8") as f:
             json.dump(memory, f, indent=2, ensure_ascii=False)
     except Exception as e:
-        print(f"[JARVIS] Could not save memory: {e}")
+        print(f"[echo] Could not save memory: {e}")
 
 def update_frequent_commands(memory: dict, command: str):
     freq = memory.get("frequent_commands", {})
